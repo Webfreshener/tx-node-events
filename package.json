@@ -1,0 +1,27 @@
+{
+  "name": "tx-node-events",
+  "version": "1.0.0",
+  "description": "TxPipes for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "txpipe",
+    "event",
+    "emitter",
+    "eventemitter",
+    "cluster"
+  ],
+  "author": "Van Schroeder <van@webfreshener.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.union": "^4.6.0",
+    "txpipe": "git+https://github.com/Webfreshener/TxPipe.git#v1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
